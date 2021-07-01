@@ -4,6 +4,9 @@
 
 A [Flarum](http://flarum.org) extension. Emoticons pack for Flarum
 
+![CvACYZSW78](https://user-images.githubusercontent.com/79002016/124120147-b2c0b500-da73-11eb-9692-d018d446c06b.gif)
+
+
 ### Installation
 
 Install with composer:
