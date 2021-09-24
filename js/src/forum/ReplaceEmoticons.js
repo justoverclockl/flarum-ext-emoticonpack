@@ -126,7 +126,7 @@ export default function () {
 
   mapIdsToPaths(emoticons, url, '', '');
 
-  document.querySelectorAll('p').forEach((e) => (e.innerHTML = replaceEmoticons(e.innerHTML, emoticons)));
+  this.element.querySelectorAll('p').forEach((e) => (e.innerHTML = replaceEmoticons(e.innerHTML, emoticons)));
 
   function replaceEmoticons(text, emotes) {
     return Object.keys(emotes).reduce((result, emote) => {
